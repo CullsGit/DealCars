@@ -1,8 +1,10 @@
 const express = require("express");
 const app = express();
 
-app.get("/api", (req, res) => {
-  res.json({ cars: ["viper", "bronco", "eagle"] });
+const carsData = require("./data/cars");
+
+app.get("/api/cars", (req, res) => {
+  res.json({ cars: carsData });
 });
 
 app.listen(5000, () => {

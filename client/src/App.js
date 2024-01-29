@@ -4,7 +4,7 @@ function App() {
   const [backendData, setBackendData] = useState([{}]);
 
   useEffect(() => {
-    fetch("/api")
+    fetch("/api/cars")
       .then((response) => response.json())
       .then((data) => {
         setBackendData(data);
@@ -16,7 +16,13 @@ function App() {
       {typeof backendData.cars === "undefined" ? (
         <p>Loading...</p>
       ) : (
-        backendData.cars.map((car, idx) => <p key={idx}>{car}</p>)
+        backendData.cars.map((car, idx) => (
+          <div key={idx}>
+            <p>
+              {car.make}: {car.model}
+            </p>
+          </div>
+        ))
       )}
     </div>
   );
