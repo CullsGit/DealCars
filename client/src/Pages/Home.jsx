@@ -1,11 +1,14 @@
 import React from "react";
-import { Hero } from "../components";
+import { Navbar, Hero } from "../components";
 
 const Home = () => {
   return (
-    <>
+    <div className="App">
+      <div className="gradient__bg">
+        <Navbar />
+      </div>
       <Hero />
-    </>
+    </div>
   );
 };
 
