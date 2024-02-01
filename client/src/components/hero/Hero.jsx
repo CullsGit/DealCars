@@ -1,8 +1,11 @@
+import React from "react";
+import "./hero.css";
+
 const Hero = () => {
   return (
     <>
       <section id="home" className="hero-section">
-        <div className="containter">
+        <div className="container">
           <div className="hero-content">
             <h1>
               Introducing the <span>Future</span> of Driving Excellence
