@@ -1,8 +1,8 @@
 import React from "react";
-import CarRange from "./components/CarRange";
+import Home from "./Pages/Home";
 
-function App() {
-  return <CarRange />;
-}
+const App = () => {
+  return <Home />;
+};
 
 export default App;
