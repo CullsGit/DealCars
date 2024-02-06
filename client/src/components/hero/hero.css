@@ -1,3 +1,78 @@
-.hero-content h1 span {
-  color: aqua;
+.dealcars__header {
+  display: flex;
+  background-image: url("../../assets/cyberpunk.png");
+  background-position: center bottom;
+}
+
+.dealcars__header-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-right: 5rem;
+}
+
+.dealcars__header-content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04rem;
+}
+
+.dealcars__header-content p {
+  font-family: var(--font-family);
+  font-size: 20px;
+  line-height: 27px;
+  color: var(--color-text);
+
+  margin-top: 1.5rem;
+}
+
+.dealcars__header-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%; /* Make the div a circle by setting the border-radius to 50% */
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.7);
+}
+
+.dealcars__header-image img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .dealcars__header {
+    flex-direction: column;
+  }
+  .dealcars__header-content {
+    margin: 0 0 3rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .dealcars__header h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .dealcars__header p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .dealcars__header h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .dealcars__header p {
+    font-size: 14px;
+    line-height: 22px;
+  }
 }

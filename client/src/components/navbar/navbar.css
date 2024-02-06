@@ -71,7 +71,6 @@
   margin: 1rem 0;
 }
 
-/* tablet view */
 @media screen and (max-width: 1050px) {
   .dealcars__navbar-links_container {
     display: none;

@@ -3,7 +3,12 @@
 :root {
   --font-family: "Orbitron", sans-serif;
 
-  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  --gradient-text: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(0, 72, 241) 50%,
+    rgb(255, 255, 255) 100%
+  );
   --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
 
   --color-bg: #040c18;

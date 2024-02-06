@@ -6,8 +6,8 @@ const Home = () => {
     <div className="App">
       <div className="gradient__bg">
         <Navbar />
+        <Hero />
       </div>
-      <Hero />
     </div>
   );
 };
