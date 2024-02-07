@@ -11,7 +11,7 @@ const Hero = () => {
         </h1>
         <p>Explore the Panther GZ: A Symphony of Innovation and Style</p>
       </div>
-      <div className="dealcars__header-image">
+      <div className="dealcars__header-image car__circle">
         <img src={panther} alt="panther" />
       </div>
     </div>

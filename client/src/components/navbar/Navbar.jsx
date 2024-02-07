@@ -6,16 +6,16 @@ import logo from "../../assets/logo.png";
 const Menu = () => (
   <>
     <p>
-      <a href="#link">Link</a>
+      <a href="#link">Our Range</a>
     </p>
     <p>
-      <a href="#link">Link</a>
+      <a href="#link">Our Story</a>
     </p>
     <p>
-      <a href="#link">Link</a>
+      <a href="#link">Discover</a>
     </p>
     <p>
-      <a href="#link">Link</a>
+      <a href="#link">About Us</a>
     </p>
   </>
 );

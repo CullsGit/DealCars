@@ -36,9 +36,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%; /* Make the div a circle by setting the border-radius to 50% */
-  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.7);
 }
 
 .dealcars__header-image img {
