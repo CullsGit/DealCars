@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Hero } from "../components";
+import { Navbar, Hero, Electrified } from "../components";
 
 const Home = () => {
   return (
@@ -8,6 +8,7 @@ const Home = () => {
         <Navbar />
         <Hero />
       </div>
+      <Electrified />
     </div>
   );
 };
