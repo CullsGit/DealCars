@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "model": "Viper X1",
+    "description": "Sleek and futuristic electric vehicle that combines cutting-edge technology with eco-conscious design. With its advanced AI-driven autopilot system and graphene-based battery technology, the Viper X1 offers unparalleled performance and sustainability. Equipped with immersive augmented reality features, it revolutionizes the driving experience, setting a new standard for the future of mobility.",
+    "image": "../assets/viper.png"
+  },
+  {
+    "id": 2,
+    "model": "Panther R",
+    "description": "Sleek and futuristic electric vehicle that combines cutting-edge technology with eco-conscious design. With its advanced AI-driven autopilot system and graphene-based battery technology, the Viper X1 offers unparalleled performance and sustainability. Equipped with immersive augmented reality features, it revolutionizes the driving experience, setting a new standard for the future of mobility.",
+    "image": "../assets/panther.png"
+  }
+]
