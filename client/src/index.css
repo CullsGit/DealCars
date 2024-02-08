@@ -6,8 +6,7 @@
   --gradient-text: linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 0%,
-    rgb(0, 72, 241) 50%,
-    rgb(255, 255, 255) 100%
+    rgb(149, 172, 255) 100%
   );
   --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
 
