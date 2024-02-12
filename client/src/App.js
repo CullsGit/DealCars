@@ -5,7 +5,7 @@ import CarRange from "./pages/CarRange";
 import "./App.css";
 
 const App = () => {
-  return <CarRange />;
+  return <Home />;
 };
 
 export default App;

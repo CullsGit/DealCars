@@ -10,10 +10,9 @@ const Car = ({ model, description, image }) => {
         <p>{description}</p>
       </div>
       <div className="dealcars__cars-image">
-        <img src={image} alt={model} />
+        <img src={image} />
       </div>
     </div>
   );
 };
-
 export default Car;
