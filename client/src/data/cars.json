@@ -1,14 +1,38 @@
 [
   {
     "id": 1,
-    "model": "Viper X1",
-    "description": "Sleek and futuristic electric vehicle that combines cutting-edge technology with eco-conscious design. With its advanced AI-driven autopilot system and graphene-based battery technology, the Viper X1 offers unparalleled performance and sustainability. Equipped with immersive augmented reality features, it revolutionizes the driving experience, setting a new standard for the future of mobility.",
-    "image": "../../assets/viper.png"
+    "model": "Helix",
+    "description": "Introducing the Helix, a groundbreaking fusion of futuristic design and adrenaline-pumping performance. With its aerodynamic silhouette and cutting-edge technology, the Helix redefines the boundaries of what a sports car can achieve. Harnessing next-generation engineering, it delivers blistering speed and precision handling, making every drive an exhilarating experience into the future of automotive excellence.",
+    "image": "../../assets/helix.png"
   },
   {
     "id": 2,
+    "model": "Viper X1",
+    "description": "Sleek electric vehicle that combines cutting-edge technology with eco-conscious design. With its advanced AI-driven autopilot system and graphene-based battery technology, the Viper X1 offers unparalleled performance and sustainability. Equipped with immersive augmented reality features, it revolutionizes the driving experience, setting a new standard for the future of mobility.",
+    "image": "../../assets/viper.png"
+  },
+  {
+    "id": 3,
+    "model": "Warthog SUV",
+    "description": "Unveiling the Warthog SUV, where futuristic innovation meets unbridled power and space. Commanding attention with its bold, sculpted exterior, the Warthog redefines the SUV experience for the modern era. With ample interior room and formidable performance capabilities, it effortlessly navigates both urban landscapes and rugged terrains, setting a new standard for versatility and power in the SUV segment.",
+    "image": "../../assets/warthog.png"
+  },
+  {
+    "id": 4,
     "model": "Panther R",
-    "description": "Sleek and futuristic electric vehicle that combines cutting-edge technology with eco-conscious design. With its advanced AI-driven autopilot system and graphene-based battery technology, the Viper X1 offers unparalleled performance and sustainability. Equipped with immersive augmented reality features, it revolutionizes the driving experience, setting a new standard for the future of mobility.",
+    "description": "Step into the future of automotive luxury and performance with this masterpiece of engineering and design. Crafted with precision and innovation, the Panther R embodies elegance, speed, and sophistication like no other.",
     "image": "../../assets/panther.png"
+  },
+  {
+    "id": 5,
+    "model": "Nova",
+    "description": "Introducing the Nova, where reliability meets affordability in perfect harmony. Engineered to deliver peace of mind on every journey, the Nova boasts a reputation for steadfast dependability. With its sleek design and budget-friendly price tag, it's the perfect choice for those seeking a reliable companion for the road ahead.",
+    "image": "../../assets/nova.png"
+  },
+  {
+    "id": 6,
+    "model": "Horizon",
+    "description": "Introducing the Horizon, a futuristic sedan that marries reliability with forward-thinking design. With sleek lines and advanced technology, the Horizon stands as a beacon of innovation in the mid-market segment. Built for the long haul, its dependable performance ensures peace of mind on every journey, setting a new benchmark for reliability in the sedan category.",
+    "image": "../../assets/horizon.png"
   }
 ]
