@@ -1,5 +1,5 @@
 import React from "react";
-import CarRange from "./containers/carRange/CarRange";
+import { CarRange, Footer } from "./containers";
 import { Navbar, Hero, Electrified } from "./components";
 
 import "./App.css";
@@ -13,6 +13,8 @@ const App = () => {
           <Hero />
         </div>
         <Electrified />
+        <CarRange />
+        <Footer />
       </div>
     </>
   );

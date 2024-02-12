@@ -27,9 +27,7 @@ const Navbar = () => {
     <div className="dealcars__navbar">
       <div className="dealcars__navbar-links">
         <div className="dealcars__navbar-links_logo">
-          <a href="#link">
-            <img src={logo} alt="logo" />
-          </a>
+          <img src={logo} alt="logo" />
         </div>
         <div className="dealcars__navbar-links_container">
           <Menu />
