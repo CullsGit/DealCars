@@ -1,6 +1,6 @@
 import React from "react";
-import carData from "../data/cars.json";
-import { Car } from "../components";
+import carData from "../../data/cars.json";
+import { Car } from "../../components";
 
 const CarRange = () => {
   return (
