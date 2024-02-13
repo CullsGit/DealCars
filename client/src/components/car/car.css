@@ -1,8 +1,16 @@
 .dealcars__cars-content {
   display: flex;
-  width: 70%;
+  width: 50%;
   font-size: 18px;
   padding: 2rem;
+}
+
+.right-facing {
+  flex-direction: row-reverse;
+}
+
+.left-facing {
+  flex-direction: row;
 }
 
 .dealcars__cars-text {

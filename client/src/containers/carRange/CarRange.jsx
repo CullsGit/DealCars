@@ -1,6 +1,7 @@
 import React from "react";
 import carData from "../../data/cars.json";
 import { Car } from "../../components";
+import "./carRange.css";
 
 const CarRange = () => {
   return (
@@ -12,6 +13,7 @@ const CarRange = () => {
             model={car.model}
             description={car.description}
             image={car.image}
+            position={car.position}
           />
         ))}
       </div>

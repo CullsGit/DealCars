@@ -1,0 +1,5 @@
+.dealcars__cars-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
