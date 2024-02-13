@@ -33,6 +33,7 @@
 .dealcars__cars-image img {
   width: 100%;
   height: 100%;
+  border-bottom: 2px solid white;
 }
 
 @media screen and (max-width: 1150px) {
