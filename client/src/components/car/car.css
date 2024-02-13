@@ -35,20 +35,23 @@
   height: 100%;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1150px) {
   .dealcars__cars-content {
     margin: 3rem 0 0;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
+    align-items: center;
   }
 
   .dealcars__cars-content h1 {
     margin-bottom: 18px;
   }
 
-  .dealcars__cars-content p,
+  .dealcars__cars-content p {
+    flex: 4;
+  }
   .dealcars__cars-content img {
-    width: 70%;
+    width: 30rem;
   }
 }
 
@@ -69,6 +72,9 @@
 }
 
 @media screen and (max-width: 490px) {
+  .dealcars__cars-content {
+    width: 100%;
+  }
   .dealcars__cars-content h1 {
     font-size: 36px;
     line-height: 48px;
@@ -76,5 +82,8 @@
   .dealcars__cars-content p {
     font-size: 10px;
     line-height: 22px;
+  }
+  .dealcars__cars-content img {
+    width: 80%;
   }
 }

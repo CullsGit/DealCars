@@ -3,3 +3,11 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 1150px) {
+  .dealcars__cars-list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
