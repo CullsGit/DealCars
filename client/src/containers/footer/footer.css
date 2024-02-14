@@ -35,6 +35,31 @@
   margin-bottom: 10rem;
   cursor: pointer;
 }
+.dealcars__footer-btn {
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+}
+.dealcars__footer-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s;
+}
+.dealcars__footer-btn:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}
+
+.dealcars__footer-btn:hover::after {
+  opacity: 1;
+  transform: scale(1, 1);
+}
 
 .dealcars__footer-btn p {
   box-sizing: border-box;

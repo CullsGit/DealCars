@@ -38,4 +38,7 @@
   .dealcars__boxes-box h3 {
     font-size: 18px;
   }
+  .dealcars__boxes-box img {
+    width: 6rem;
+  }
 }
