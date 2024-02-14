@@ -6,7 +6,7 @@ import "./carRange.css";
 const CarRange = () => {
   return (
     <div className="gradient__bg">
-      <div className="dealcars__cars-title">
+      <div className="dealcars__cars-title" id="our-range">
         <h1 className="gradient__text">Our Range</h1>
       </div>
       <div className="dealcars__cars-list">

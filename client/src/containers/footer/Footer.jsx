@@ -5,7 +5,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div className="dealcars__footer section__padding">
-      <div className="dealcars__footer-heading">
+      <div className="dealcars__footer-heading" id="contact">
         <h1 className="gradient__text">Stay in touch with the future</h1>
       </div>
 

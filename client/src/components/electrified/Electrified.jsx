@@ -11,7 +11,9 @@ const Electrified = () => {
       <div className="dealcars__electrified-content">
         <h1>Everything Electrified</h1>
         <p>Our cars are all 100% powered by electricity.</p>
-        <button>View our Range</button>
+        <button>
+          <a href="#our-range">View our Range</a>
+        </button>
       </div>
     </div>
   );
