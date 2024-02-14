@@ -38,14 +38,15 @@
   margin-top: 1.5rem;
 }
 
-.dealcars__electrified-content button {
+.dealcars__electrified-content a {
   font-family: var(--font-family);
   font-size: 20px;
-  line-height: 27px;
+  line-height: 50px;
   cursor: pointer;
   margin-top: 1.5rem;
   border-radius: 5%;
   height: 50px;
+  text-align: center;
 
   width: 100%;
   min-height: 25px;
@@ -88,9 +89,11 @@
     font-size: 16px;
     line-height: 22px;
   }
-  .dealcars__electrified-content button {
+  .dealcars__electrified-content a {
     font-size: 16px;
-    line-height: 24px;
+    height: 40px;
+    line-height: 40px;
+    width: 60%;
   }
 }
 
@@ -104,8 +107,7 @@
     line-height: 22px;
   }
 
-  .dealcars__electrified-content button {
+  .dealcars__electrified-content a {
     font-size: 12px;
-    line-height: 16px;
   }
 }
