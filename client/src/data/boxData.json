@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "header": "Pick Vehicle",
+    "text": "Whether you prioritize efficiency, space, or performance, our diverse selection ensures you'll find the perfect match for your lifestyle.",
+    "icon": "../../assets/pickicon.png"
+  },
+  {
+    "id": 2,
+    "header": "Contact Operator",
+    "text": "To learn more about a specific vehicle or to schedule a test drive, don't hesitate to contact our knowledgeable staff.",
+    "icon": "../../assets/phoneicon.png"
+  },
+  {
+    "id": 3,
+    "header": "Drive Away",
+    "text": "With everything sorted, all that's left is for you to grab the keys and drive away in your new car",
+    "icon": "../../assets/caricon.png"
+  }
+]

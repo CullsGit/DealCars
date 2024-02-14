@@ -1,0 +1,68 @@
+.dealcars__own-content {
+  display: flex;
+  border: 1rem solid black;
+  padding: 2rem 0;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(
+    90deg,
+    rgba(58, 111, 156, 1) 0%,
+    rgba(182, 221, 255, 1) 51%,
+    rgba(58, 111, 156, 1) 100%
+  );
+}
+
+.dealcars__own-content_header {
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  font-family: var(--font-family);
+}
+
+.dealcars__own-boxes {
+  width: 70%;
+  display: flex;
+  align-items: space-around;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1050px) {
+  .dealcars__own-boxes {
+    flex-direction: column;
+  }
+  .dealcars__own-content h1 {
+    font-size: 26px;
+  }
+  .dealcars__own-content h4 {
+    font-size: 22px;
+    margin-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .dealcars__own-boxes {
+    width: 90%;
+  }
+  .dealcars__own-content {
+    border: 0.5rem solid black;
+  }
+  .dealcars__own-content h1 {
+    font-size: 20px;
+  }
+  .dealcars__own-content h4 {
+    font-size: 16px;
+    margin-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .dealcars__own-content h1 {
+    font-size: 16px;
+  }
+  .dealcars__own-content h4 {
+    font-size: 12px;
+    margin-top: 0.5rem;
+  }
+}
