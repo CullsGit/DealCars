@@ -9,10 +9,10 @@ const Menu = () => (
       <a href="#link">Our Range</a>
     </p>
     <p>
-      <a href="#link">Our Story</a>
+      <a href="#link">Drive Away</a>
     </p>
     <p>
-      <a href="#link">Discover</a>
+      <a href="#link">Contact</a>
     </p>
     <p>
       <a href="#link">About Us</a>
