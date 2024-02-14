@@ -6,7 +6,9 @@ import "./carRange.css";
 const CarRange = () => {
   return (
     <div className="gradient__bg">
-      <h1>Our range</h1>
+      <div className="dealcars__cars-title">
+        <h1 className="gradient__text">Our Range</h1>
+      </div>
       <div className="dealcars__cars-list">
         {carData.map((car) => (
           <Car
