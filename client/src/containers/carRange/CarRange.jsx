@@ -12,10 +12,12 @@ const CarRange = () => {
       <div className="dealcars__cars-list">
         {carData.map((car) => (
           <Car
+            key={car.id}
             model={car.model}
             description={car.description}
             image={car.image}
             position={car.position}
+            id={car.id}
           />
         ))}
       </div>
