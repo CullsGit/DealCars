@@ -28,7 +28,7 @@ const Footer = () => {
           <h4>Company</h4>
           <p>Terms & Conditions</p>
           <p>Privacy Policy</p>
-          <p>Contact</p>
+          <p>Cookie Policy</p>
         </div>
         <div className="dealcars__footer-links_div">
           <h4>Get in touch</h4>
