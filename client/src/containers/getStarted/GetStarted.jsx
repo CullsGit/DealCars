@@ -12,7 +12,13 @@ const getStarted = () => {
       </div>
       <div className="dealcars__own-boxes">
         {boxData.map((box) => (
-          <IconBox header={box.header} text={box.text} icon={box.icon} />
+          <IconBox
+            key={box.id}
+            header={box.header}
+            text={box.text}
+            icon={box.icon}
+            id={box.id}
+          />
         ))}
       </div>
     </div>
