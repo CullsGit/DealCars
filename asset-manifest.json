@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/CullsGit/DealCars.git/static/css/main.c2949828.css",
+    "main.js": "/CullsGit/DealCars.git/static/js/main.b5c1dd83.js",
+    "static/media/cyberpunk.png": "/CullsGit/DealCars.git/static/media/cyberpunk.4464e17ec97cfdc8983f.png",
+    "static/media/electricbg.png": "/CullsGit/DealCars.git/static/media/electricbg.9de1ea4cb136811cb0e1.png",
+    "static/media/ev.png": "/CullsGit/DealCars.git/static/media/ev.628c78c8dd2c1e6eaef1.png",
+    "static/media/logo.png": "/CullsGit/DealCars.git/static/media/logo.cff9dd60aeae7a49805a.png",
+    "static/media/panther.png": "/CullsGit/DealCars.git/static/media/panther.182f4b57542bf9db8de7.png",
+    "index.html": "/CullsGit/DealCars.git/index.html",
+    "main.c2949828.css.map": "/CullsGit/DealCars.git/static/css/main.c2949828.css.map",
+    "main.b5c1dd83.js.map": "/CullsGit/DealCars.git/static/js/main.b5c1dd83.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2949828.css",
+    "static/js/main.b5c1dd83.js"
+  ]
+}
