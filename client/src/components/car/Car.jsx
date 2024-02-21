@@ -13,7 +13,7 @@ const Car = ({ model, description, image, position, id }) => {
         <p>{description}</p>
       </div>
       <div className="dealcars__cars-image">
-        <img src={image} alt={model} />
+        <img src={`${process.env.PUBLIC_URL}/${image}`} alt={model} />
       </div>
     </div>
   );
